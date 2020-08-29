@@ -19,7 +19,7 @@ var dice = Math.floor(Math.random()*6)+1;
 //2- display the result
 var diceDOM = document.querySelector('.dice');
 diceDOM.style.display = 'block';
-diceDOM.src = 'dice-' + dice + '.png';
+diceDOM.src = './images/dice-' + dice + '.png';
 
 //3- update the round score  if  the rolled number was not 1 
 if(dice !== 1){
